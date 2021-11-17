@@ -43,6 +43,7 @@ namespace Inventario.Forms
             this.nudPrecio = new System.Windows.Forms.NumericUpDown();
             this.nudCantidad = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnVerInventario = new System.Windows.Forms.Button();
@@ -50,7 +51,6 @@ namespace Inventario.Forms
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCantidad)).BeginInit();
             this.panel1.SuspendLayout();
@@ -64,10 +64,9 @@ namespace Inventario.Forms
             this.lblId.BackColor = System.Drawing.Color.Transparent;
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblId.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblId.Location = new System.Drawing.Point(10, 11);
-            this.lblId.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblId.Location = new System.Drawing.Point(13, 14);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(33, 24);
+            this.lblId.Size = new System.Drawing.Size(42, 29);
             this.lblId.TabIndex = 0;
             this.lblId.Text = "Id:";
             // 
@@ -77,10 +76,9 @@ namespace Inventario.Forms
             this.lblNombre.BackColor = System.Drawing.Color.Transparent;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(10, 52);
-            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNombre.Location = new System.Drawing.Point(13, 64);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(216, 24);
+            this.lblNombre.Size = new System.Drawing.Size(270, 29);
             this.lblNombre.TabIndex = 1;
             this.lblNombre.Text = "Nombre del Producto:";
             // 
@@ -90,10 +88,9 @@ namespace Inventario.Forms
             this.lblPrecio.BackColor = System.Drawing.Color.Transparent;
             this.lblPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrecio.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPrecio.Location = new System.Drawing.Point(10, 94);
-            this.lblPrecio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPrecio.Location = new System.Drawing.Point(13, 116);
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(201, 24);
+            this.lblPrecio.Size = new System.Drawing.Size(252, 29);
             this.lblPrecio.TabIndex = 2;
             this.lblPrecio.Text = "Precio del Producto:";
             // 
@@ -103,10 +100,9 @@ namespace Inventario.Forms
             this.lblCantidad.BackColor = System.Drawing.Color.Transparent;
             this.lblCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidad.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCantidad.Location = new System.Drawing.Point(10, 135);
-            this.lblCantidad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblCantidad.Location = new System.Drawing.Point(13, 166);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(98, 24);
+            this.lblCantidad.Size = new System.Drawing.Size(124, 29);
             this.lblCantidad.TabIndex = 3;
             this.lblCantidad.Text = "Cantidad:";
             // 
@@ -116,10 +112,9 @@ namespace Inventario.Forms
             this.lblFecha.BackColor = System.Drawing.Color.Transparent;
             this.lblFecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFecha.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblFecha.Location = new System.Drawing.Point(10, 218);
-            this.lblFecha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFecha.Location = new System.Drawing.Point(13, 268);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(221, 24);
+            this.lblFecha.Size = new System.Drawing.Size(272, 29);
             this.lblFecha.TabIndex = 4;
             this.lblFecha.Text = "Fecha de Adquisición:";
             // 
@@ -129,61 +124,60 @@ namespace Inventario.Forms
             this.lblDescripción.BackColor = System.Drawing.Color.Transparent;
             this.lblDescripción.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripción.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblDescripción.Location = new System.Drawing.Point(10, 175);
-            this.lblDescripción.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDescripción.Location = new System.Drawing.Point(13, 215);
             this.lblDescripción.Name = "lblDescripción";
-            this.lblDescripción.Size = new System.Drawing.Size(127, 24);
+            this.lblDescripción.Size = new System.Drawing.Size(159, 29);
             this.lblDescripción.TabIndex = 5;
             this.lblDescripción.Text = "Descripción:";
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(271, 14);
-            this.txtId.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtId.Location = new System.Drawing.Point(361, 17);
+            this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(199, 20);
+            this.txtId.Size = new System.Drawing.Size(264, 22);
             this.txtId.TabIndex = 6;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(271, 57);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Location = new System.Drawing.Point(361, 70);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(199, 20);
+            this.txtNombre.Size = new System.Drawing.Size(264, 22);
             this.txtNombre.TabIndex = 7;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(271, 166);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDescripcion.Location = new System.Drawing.Point(361, 204);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(199, 40);
+            this.txtDescripcion.Size = new System.Drawing.Size(264, 48);
             this.txtDescripcion.TabIndex = 8;
             // 
             // dtpFecha
             // 
-            this.dtpFecha.Location = new System.Drawing.Point(271, 221);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpFecha.Location = new System.Drawing.Point(361, 272);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(199, 20);
+            this.dtpFecha.Size = new System.Drawing.Size(264, 22);
             this.dtpFecha.TabIndex = 9;
             // 
             // nudPrecio
             // 
             this.nudPrecio.DecimalPlaces = 2;
-            this.nudPrecio.Location = new System.Drawing.Point(271, 97);
-            this.nudPrecio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudPrecio.Location = new System.Drawing.Point(361, 119);
+            this.nudPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudPrecio.Name = "nudPrecio";
-            this.nudPrecio.Size = new System.Drawing.Size(198, 20);
+            this.nudPrecio.Size = new System.Drawing.Size(264, 22);
             this.nudPrecio.TabIndex = 10;
             // 
             // nudCantidad
             // 
-            this.nudCantidad.Location = new System.Drawing.Point(271, 135);
-            this.nudCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudCantidad.Location = new System.Drawing.Point(361, 166);
+            this.nudCantidad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudCantidad.Name = "nudCantidad";
-            this.nudCantidad.Size = new System.Drawing.Size(198, 20);
+            this.nudCantidad.Size = new System.Drawing.Size(264, 22);
             this.nudCantidad.TabIndex = 11;
             // 
             // panel1
@@ -203,11 +197,19 @@ namespace Inventario.Forms
             this.panel1.Controls.Add(this.lblPrecio);
             this.panel1.Controls.Add(this.lblCantidad);
             this.panel1.Controls.Add(this.txtDescripcion);
-            this.panel1.Location = new System.Drawing.Point(8, 130);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(11, 160);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(489, 296);
+            this.panel1.Size = new System.Drawing.Size(652, 364);
             this.panel1.TabIndex = 13;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(360, 315);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(264, 22);
+            this.dateTimePicker1.TabIndex = 12;
             // 
             // pictureBox1
             // 
@@ -215,9 +217,9 @@ namespace Inventario.Forms
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(999, 130);
+            this.pictureBox1.Size = new System.Drawing.Size(1332, 160);
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
@@ -230,10 +232,10 @@ namespace Inventario.Forms
             this.panel2.Controls.Add(this.btnBuscar);
             this.panel2.Controls.Add(this.btnAgregar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(846, 130);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(1128, 160);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(153, 320);
+            this.panel2.Size = new System.Drawing.Size(204, 394);
             this.panel2.TabIndex = 15;
             // 
             // btnVerInventario
@@ -246,11 +248,11 @@ namespace Inventario.Forms
             this.btnVerInventario.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnVerInventario.Image = ((System.Drawing.Image)(resources.GetObject("btnVerInventario.Image")));
             this.btnVerInventario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVerInventario.Location = new System.Drawing.Point(0, 204);
-            this.btnVerInventario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVerInventario.Location = new System.Drawing.Point(0, 252);
+            this.btnVerInventario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnVerInventario.Name = "btnVerInventario";
-            this.btnVerInventario.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnVerInventario.Size = new System.Drawing.Size(153, 51);
+            this.btnVerInventario.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.btnVerInventario.Size = new System.Drawing.Size(204, 63);
             this.btnVerInventario.TabIndex = 10;
             this.btnVerInventario.Text = "Ver Inventario";
             this.btnVerInventario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -267,11 +269,11 @@ namespace Inventario.Forms
             this.btnEliminar.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(0, 153);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Location = new System.Drawing.Point(0, 189);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnEliminar.Size = new System.Drawing.Size(153, 51);
+            this.btnEliminar.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.btnEliminar.Size = new System.Drawing.Size(204, 63);
             this.btnEliminar.TabIndex = 9;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -288,11 +290,11 @@ namespace Inventario.Forms
             this.btnModificar.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnModificar.Image = ((System.Drawing.Image)(resources.GetObject("btnModificar.Image")));
             this.btnModificar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnModificar.Location = new System.Drawing.Point(0, 102);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnModificar.Location = new System.Drawing.Point(0, 126);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnModificar.Size = new System.Drawing.Size(153, 51);
+            this.btnModificar.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.btnModificar.Size = new System.Drawing.Size(204, 63);
             this.btnModificar.TabIndex = 8;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -309,11 +311,11 @@ namespace Inventario.Forms
             this.btnBuscar.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(0, 51);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscar.Location = new System.Drawing.Point(0, 63);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnBuscar.Size = new System.Drawing.Size(153, 51);
+            this.btnBuscar.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.btnBuscar.Size = new System.Drawing.Size(204, 63);
             this.btnBuscar.TabIndex = 7;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -331,35 +333,29 @@ namespace Inventario.Forms
             this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
             this.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregar.Location = new System.Drawing.Point(0, 0);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnAgregar.Size = new System.Drawing.Size(153, 51);
+            this.btnAgregar.Padding = new System.Windows.Forms.Padding(11, 0, 0, 0);
+            this.btnAgregar.Size = new System.Drawing.Size(204, 63);
             this.btnAgregar.TabIndex = 6;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAgregar.UseVisualStyleBackColor = false;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(270, 256);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(199, 20);
-            this.dateTimePicker1.TabIndex = 12;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // FrmInventario
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(46)))), ((int)(((byte)(161)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(999, 450);
+            this.ClientSize = new System.Drawing.Size(1332, 554);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmInventario";
             this.Text = "FrmInventario";
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecio)).EndInit();

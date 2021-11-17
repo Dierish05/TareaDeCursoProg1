@@ -143,7 +143,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\AppCoreMain\AppCoreMain.csproj">
+      <Project>{DF35D1BA-BE87-43D5-BFA1-184830F7AAD7}</Project>
+      <Name>AppCoreMain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DomainPrincipal\DomainPrincipal.csproj">
+      <Project>{CC16D1F0-8A12-4DDD-A08F-45BAF8CDAB9F}</Project>
+      <Name>DomainPrincipal</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
